@@ -5,35 +5,42 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- Why isn't the title showing up??? Not showing in other pages either -->
     <title>Latitude Analysis Dashboard</title>
+    <link rel="stylesheet" href="LatitudeStyling.css">
 </head>
 
 
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="LatitudeAnalysisDashboard.html">Latitude Analysis Dashboard</a></li>
-                <li><a href="VisualizationTemp.html">Visualization: Max Temp</a></li>
-                <li><a href="VisualizationHumidity.html">Visualization: Humidity</a></li>
-                <li><a href="VisualizationCloudiness.html">Visualization: Cloudiness</a></li>
-                <li><a href="VisualizationWindSpeed.html">Visualization: Wind Speed</a></li>
-                <li><a href="Comparisons.html">Comparisons</a></li>
-                <li><a href="Data.html">Data</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>      
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="LatitudeAnalysisDashboard.html">Latitude Analysis Dashboard</a></li>
+                    <li><a href="VisualizationTemp.html">Visualization: Max Temp</a></li>
+                    <li><a href="VisualizationHumidity.html">Visualization: Humidity</a></li>
+                    <li><a href="VisualizationCloudiness.html">Visualization: Cloudiness</a></li>
+                    <li><a href="VisualizationWindSpeed.html">Visualization: Wind Speed</a></li>
+                    <li><a href="Comparisons.html">Comparisons</a></li>
+                    <li><a href="Data.html">Data</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Latitude Analysis Dashboard</h1>
 
-    <h1>Latitude - Latitude Analysis Dashboard with Attitude</h1>
-    This website includes a visualization dashboard using visualizations I've created in a past assignment. 
-    Specifically, we'll be plotting weather data. 
-    Each plot has an individual page that we can navigate to. 
-    These pages contain the visualizations and their corresponding explanations. 
-    There's also have a landing page, a page where we can see a comparison of all of the plots, 
-    and another page where we can view the data used to build them.
-
+        This website includes a visualization dashboard using visualizations I've created in a past assignment. 
+        <br>
+        Specifically, we'll be plotting weather data. 
+        <br>
+        Each plot has an individual page that we can navigate to. 
+        <br>
+        These pages contain the visualizations and their corresponding explanations.
+        <br> 
+        There's also have a landing page, a page where we can see a comparison of all of the plots, 
+        <br>
+        and another page where we can view the data used to build them.
+    </div>
 </body>
 
 
-</html>
+<!-- Dropdown for navigation bar: https://getbootstrap.com/docs/4.0/components/navbar/ 
+Instructions: Must Contain a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.-->
