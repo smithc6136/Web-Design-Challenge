@@ -7,6 +7,9 @@ body {
     font-size: 40px;
   } 
 
+.container-fluid{
+  padding-bottom: 20px;
+}
 
 /* Giving our navbar some padding and a background color */
 .navbar {
@@ -79,3 +82,4 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
