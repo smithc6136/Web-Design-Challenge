@@ -7,14 +7,89 @@
     <meta charset="UTF-8">
     <title>Latitude Analysis Dashboard</title>
     <!-- Boostrap Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="LatitudeStyling.css">
 </head>
 
 
-<body>  
+<body>
+    <!-- This is supposed to add a toggle feature to the sidebar... -->
+    <!-- <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+
+            </div>
+        </nav>
+    </div> -->
+
+
+    <nav id="sidebar">
+        <!-- Side navigation -->
+        <ul class="list-unstyled components">
+            <li>
+                <a href="VisualizationTemp.html"><img src="assets/Fig1.png" alt="City Latitude vs. Max Temp" width="170"
+                        height="130"></a>
+            </li>
+            <li>
+                <a href="VisualizationHumidity.html"><img src="assets/Fig2.png" alt="City Latitude vs. Humidity (%)"
+                        width="170" height="130"></a>
+            </li>
+            <li>
+                <a href="VisualizationCloudiness.html"><img src="assets/Fig3.png" alt="City Latitude vs. Cloudiness (%)"
+                        width="170" height="130"></a>
+            </li>
+            <li>
+                <a href="VisualizationWindSpeed.html"><img src="assets/Fig4.png" alt="City Latitude vs. Wind Speed"
+                        width="170" height="130"></a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <header class="header">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="LatitudeAnalysisDashboard.html">Latitude Analysis Dashboard</a></li>
+                    <li><a href="VisualizationTemp.html">Visualization: Max Temp</a></li>
+                    <li><a href="VisualizationHumidity.html">Visualization: Humidity</a></li>
+                    <li><a href="VisualizationCloudiness.html">Visualization: Cloudiness</a></li>
+                    <li><a href="VisualizationWindSpeed.html">Visualization: Wind Speed</a></li>
+                    <li><a href="Comparisons.html">Comparisons</a></li>
+                    <li><a href="Data.html">Data</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Latitude Analysis Dashboard</h1>
+
+        This website includes a visualization dashboard using visualizations I've created in a past assignment.
+        <br>
+        Specifically, we'll be plotting weather data.
+        <br>
+        Each plot has an individual page that we can navigate to.
+        <br>
+        These pages contain the visualizations and their corresponding explanations.
+        <br>
+        There's also have a landing page, a page where we can see a comparison of all of the plots,
+        <br>
+        and another page where we can view the data used to build them.
+    </div>
+</body>
+
+
+<!-- Dropdown for navigation bar: https://getbootstrap.com/docs/4.0/components/navbar/ 
+Instructions: Must Contain a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.-->
+
+<!-- <body>  
     <!-- Side navigation -->
-    <div class="sidenav">
+<!--    <div class="sidenav">
 
         <a href="VisualizationTemp.html"><img src="assets/Fig1.png" alt="City Latitude vs. Max Temp" width="170" height="130"></a>
         <a href="VisualizationHumidity.html"><img src="assets/Fig2.png" alt="City Latitude vs. Humidity (%)" width="170" height="130"></a>
@@ -49,8 +124,4 @@
         <br>
         and another page where we can view the data used to build them.
     </div>
-</body>
-
-
-<!-- Dropdown for navigation bar: https://getbootstrap.com/docs/4.0/components/navbar/ 
-Instructions: Must Contain a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.-->
+</body> -->
