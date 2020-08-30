@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Comparison of Scatterplots</title>
+    <!-- Boostrap Stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="LatitudeStyling.css">
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home: Latitude Analysis Dashboard</a></li>
+            </ul>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="index.html">Latitude Analysis Dashboard</a>
+                    <a class="dropdown-item" href="VisualizationTemp.html">Visualization: Max Temp</a>
+                    <a class="dropdown-item" href="VisualizationHumidity.html">Visualization: Humidity</a>
+                    <a class="dropdown-item" href="VisualizationCloudiness.html">Visualization: Cloudiness</a>
+                    <a class="dropdown-item" href="VisualizationWindSpeed.html">Visualization: Wind Speed</a>
+                    <a class="dropdown-item" href="Comparisons.html">Comparisons</a>
+                    <a class="dropdown-item" href="Data.html">Data</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h1>Comparison: Latitude vs. X</h1>
+    <p>Click on any image for a more detailed analysis.</p>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h4>Vs. Temperature</h4>
+                <a href="VisualizationTemp.html">
+                    <img title="vs. Max Temp" src="Fig1.png" alt="City Latitude vs. Max Temperature Scatterplot"
+                        width="600" height=400">
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h4>Vs. Humidity</h4>
+                <a href="VisualizationHumidity.html">
+                    <img title="vs. Humidity" src="Fig2.png" alt="City Latitude vs. Humidity Scatterplot"
+                        width="600" height="400">
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h4>Vs. Cloudiness</h4>
+                <a href="VisualizationCloudiness.html">
+                    <img title="vs. Cloudiness" src="Fig3.png" alt="City Latitude vs. Cloudiness Scatterplot"
+                        width="600" height="400">
+                </a>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <h4>Vs. Wind Speed</h4>
+                <a href="VisualizationWindSpeed.html">
+                    <img title="vs. Wind Speed" src="Fig4.png" alt="City Latitude vs. Wind Speed Scatterplot"
+                        width="600" height="400">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>
