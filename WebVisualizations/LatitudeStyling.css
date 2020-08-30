@@ -13,19 +13,19 @@ body {
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-    padding: 10px; 
+    padding: 5px; 
     background: #7FFFD4;
   }
   
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
 .navbar li {
     display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
+    padding: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
     cursor: pointer;
     background: honeydew;
-    border-radius: 3px;
+    border-radius: 1px;
   }
   
 /* Getting rid of the default link styles here */
